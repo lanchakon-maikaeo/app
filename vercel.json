@@ -1,0 +1,6 @@
+{
+  "buildCommand": "echo build step",
+  "outputDirectory": ".",
+  "installCommand": "echo skip",
+  "devCommand": "gunicorn --bind 0.0.0.0:5000 app:app"
+}
